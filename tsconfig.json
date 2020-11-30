@@ -1,0 +1,25 @@
+{
+  "include": ["src", "types"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "noEmit": false,
+    "rootDir": "src",
+    "outDir": "dist",
+    "jsx": "react",
+    "target": "es2020",
+    "module": "es2020",
+    "allowJs": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "strict": false,
+    "strictNullChecks": false,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "declarationMap": true,
+    "declaration": true,
+    "declarationDir": "dist/types"
+  }
+}

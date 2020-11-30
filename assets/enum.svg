@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1200px" height="1200px" viewBox="0 0 12000 12000" preserveAspectRatio="xMidYMid meet">
+<g id="layer101">
+ <path fill="#4f4f4f" d="M4767 7286 c-167 -60 -245 -250 -169 -411 53 -111 146 -169 272 -169 83 -1 135 19 202 74 80 66 116 203 84 315 -23 75 -106 163 -180 188 -59 20 -156 21 -209 3z"/>
+ <path fill="#4f4f4f" d="M3458 5990 l-3 -1290 -368 240 c-202 132 -370 240 -372 240 -3 0 -5 -101 -5 -224 l0 -224 384 -251 384 -251 226 0 226 0 0 1525 0 1525 -235 0 -235 0 -2 -1290z"/>
+ <path fill="#4f4f4f" d="M7100 6440 l0 -80 1550 0 1550 0 0 80 0 80 -1550 0 -1550 0 0 -80z"/>
+ <path fill="#4f4f4f" d="M7100 5380 l0 -80 1310 0 1310 0 0 80 0 80 -1310 0 -1310 0 0 -80z"/>
+ <path fill="#4f4f4f" d="M7100 4320 l0 -80 2050 0 2050 0 0 80 0 80 -2050 0 -2050 0 0 -80z"/>
+ </g>
+<g id="layer102">
+ <path fill="#cccccc" d="M7100 6440 l0 -80 1550 0 1550 0 0 80 0 80 -1550 0 -1550 0 0 -80z"/>
+ <path fill="#cccccc" d="M7100 5380 l0 -80 1310 0 1310 0 0 80 0 80 -1310 0 -1310 0 0 -80z"/>
+ <path fill="#cccccc" d="M7100 4320 l0 -80 2050 0 2050 0 0 80 0 80 -2050 0 -2050 0 0 -80z"/>
+ </g>
+
+</svg>

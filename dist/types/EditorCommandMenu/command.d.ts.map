@@ -1,0 +1,1 @@
+{"version":3,"file":"command.d.ts","sourceRoot":"","sources":["../../../src/EditorCommandMenu/command.ts"],"names":[],"mappings":";AAEA,wBA4FmB;AAGnB,MAAM,WAAW,WAAW;IAC1B,OAAO,EAAE,QAAQ,CAAC;IAClB,KAAK,EAAE,MAAM,CAAC;IACd,IAAI,EAAE,MAAM,CAAC;IACb,WAAW,EAAE,MAAM,CAAC;IACpB,QAAQ,EAAE,MAAM,CAAC;CAClB"}

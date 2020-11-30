@@ -1,0 +1,94 @@
+@import "~prosemirror-view/style/prosemirror.css";
+@import "~prosemirror-gapcursor/style/gapcursor.css";
+
+.ProseMirror {
+  max-width: 760px;
+  height: fit-content;
+  margin: 10vh auto;
+  outline: none;
+  line-height: 1.25;
+}
+
+.ProseMirror .mathblock {
+  background-color: rgb(247, 246, 243);
+}
+
+.ProseMirror .codeblock {
+  margin: 1rem 0;
+  padding: 16px;
+  overflow: auto;
+  font-size: 0.85em;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+  border-radius: 6px;
+}
+
+
+.ProseMirror blockquote {
+  margin: 1em 0;
+  padding: 0.1rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid rgb(55, 53, 47);;
+}
+
+.ProseMirror .ProseMirror-activenode {
+  transition: background-color 0.3s ease-in;
+}
+
+.ProseMirror ::selection {
+  background: rgba(45, 170, 219, 0.20);
+}
+
+.ProseMirror {
+  --default-gray: #e1e1e0;
+  --default-back: #f8f8f8;
+}
+
+.ProseMirror .codeblock::before {
+  content: attr(data-lang);
+  display: block;
+  font-size: 0.75em;
+}
+
+:root {
+
+  --lite-cyan: #56b6c2;
+  --lite-blue: #4078f2;
+  --lite-purp: #a626a4;
+  --lite-gren: #50a14f;
+  --lite-lred: #e45649;
+  --lite-dred: #ca1243;
+  --lite-lorg: #986801;
+  --lite-dorg: #c18401;
+
+  --dark-cyan: #56b6c2;
+  --dark-blue: #61afef;
+  --dark-purp: #c678dd;
+  --dark-gren: #98c379;
+  --dark-lred: #e06c75;
+  --dark-dred: #be5046;
+  --dark-lorg: #d19a66;
+  --dark-dorg: #e5c07b;
+
+  --default-cyan: var(--lite-cyan);
+  --default-blue: var(--lite-blue);
+  --default-purp: var(--lite-purp);
+  --default-gren: var(--lite-gren);
+  --default-lred: var(--lite-lred);
+  --default-dred: var(--lite-dred);
+  --default-lorg: var(--lite-lorg);
+  --default-dorg: var(--lite-dorg);
+}
+
+@media(prefers-color-scheme:dark) {
+  :root {
+    --default-cyan: var(--dark-cyan);
+    --default-blue: var(--dark-blue);
+    --default-purp: var(--dark-purp);
+    --default-gren: var(--dark-gren);
+    --default-lred: var(--dark-lred);
+    --default-dred: var(--dark-dred);
+    --default-lorg: var(--dark-lorg);
+    --default-dorg: var(--dark-dorg);
+  }
+}
